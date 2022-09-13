@@ -33,6 +33,7 @@ model Customer {
   createdAt DateTime @default(now())
   id        String   @id @default(cuid())
   name      String?
+  phone     String?
   scans     Scan[]
   updatedAt DateTime @updatedAt
 }
