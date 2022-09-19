@@ -2,5 +2,6 @@ import { ScanCreateNestedManyWithoutCustomersInput } from "./ScanCreateNestedMan
 
 export type CustomerCreateInput = {
   name?: string | null;
+  phone?: string | null;
   scans?: ScanCreateNestedManyWithoutCustomersInput;
 };
