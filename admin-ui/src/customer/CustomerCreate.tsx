@@ -16,6 +16,7 @@ export const CustomerCreate = (props: CreateProps): React.ReactElement => {
     <Create {...props}>
       <SimpleForm>
         <TextInput label="Name" source="name" />
+        <TextInput label="phone" source="phone" />
         <ReferenceArrayInput
           source="scans"
           reference="Scan"
