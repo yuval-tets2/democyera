@@ -5,5 +5,6 @@ import { ScanListRelationFilter } from "../scan/ScanListRelationFilter";
 export type CustomerWhereInput = {
   id?: StringFilter;
   name?: StringNullableFilter;
+  phone?: StringNullableFilter;
   scans?: ScanListRelationFilter;
 };
