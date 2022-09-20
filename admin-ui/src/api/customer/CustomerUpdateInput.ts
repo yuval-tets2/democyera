@@ -2,5 +2,6 @@ import { ScanUpdateManyWithoutCustomersInput } from "./ScanUpdateManyWithoutCust
 
 export type CustomerUpdateInput = {
   name?: string | null;
+  phone?: string | null;
   scans?: ScanUpdateManyWithoutCustomersInput;
 };
